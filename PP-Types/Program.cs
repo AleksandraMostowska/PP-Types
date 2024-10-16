@@ -55,8 +55,6 @@ void PrintColumns(string[] t, int perLine, int width)
         Console.Write(formattedWord.PadRight(width));
         Console.Write((i + 1) % perLine == 0 ? "\n" : "| ");
     }
-
-
 }
 
 
